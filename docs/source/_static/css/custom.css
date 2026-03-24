@@ -1,0 +1,36 @@
+/* Custom Area 65 Tech Theme Overrides for Read the Docs */
+
+/* Top Header Bar */
+.wy-nav-top {
+    background-color: #1a1a1a; /* Replace with Area 65 Tech main dark background color */
+}
+
+/* Sidebar Background (Search area) */
+.wy-side-nav-search {
+    background-color: #1a1a1a; /* Replace with Area 65 Tech main dark background color */
+}
+
+/* Sidebar Menu Background */
+.wy-nav-side {
+    background-color: #2b2b2b; /* Replace with Area 65 Tech secondary dark background color */
+}
+
+/* Hyperlinks in content */
+.wy-nav-content a {
+    color: #e65c00; /* Replace with Area 65 Tech primary accent/button color */
+}
+
+.wy-nav-content a:hover {
+    color: #ff7b00; /* Lighter shade of the accent color for hover states */
+    text-decoration: underline;
+}
+
+/* Buttons (e.g., Next/Previous Page) */
+.btn-neutral {
+    background-color: #e65c00 !important; /* Replace with Area 65 Tech primary accent color */
+    color: white !important;
+}
+
+.btn-neutral:hover {
+    background-color: #ff7b00 !important; /* Lighter shade for hover */
+}
