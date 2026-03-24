@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Area65-4G Telemetry'
+copyright = '2026, Area65'
+author = 'Area65'
 
 release = '0.1'
 version = '0.1.0'
