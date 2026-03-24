@@ -1,22 +1,34 @@
-Welcome to Lumache's documentation!
-===================================
+4G Telemetry Documentation
+==========================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
-
-.. note::
-
-   This project is under active development.
-
-Contents
---------
+This documentation covers the AREA65 4G Telemetry system, including hardware integration, API reference, and Arduino library usage.
 
 .. toctree::
+   :maxdepth: 2
+   :caption: Getting Started
 
-   usage
-   api
+   getting-started
+
+.. toctree::
+   :maxdepth: 2
+   :caption: API Reference
+
+   api-reference
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Arduino Library
+
+   arduino-library
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Hardware Integration
+
+   hardware-integration
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Troubleshooting
+
+   troubleshooting
