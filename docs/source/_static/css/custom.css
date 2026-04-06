@@ -7,28 +7,57 @@
     background-color: #aa0000 !important; 
 }
 
-/* Side navigation background (Black) */
+/* Side navigation base background (Black) */
 .wy-nav-side {
     background-color: #121212 !important; 
 }
 
-/* Side panel text and link colors */
+/* Base side panel text and link colors */
 .wy-menu-vertical a {
     color: #cccccc !important;
 }
 
-/* Hover state for side panel links */
+/* Hover state for all side panel links */
 .wy-menu-vertical a:hover {
     background-color: #333333 !important;
+    color: #ffffff !important;
 }
 
-/* Active section highlight in the side panel */
-.wy-menu-vertical li.current > a, .wy-menu-vertical li.onfocus > a {
+/* --- FIX FOR UNREADABLE NESTED MENUS --- */
+
+/* Background for expanded sections and nested lists */
+.wy-menu-vertical li.current,
+.wy-menu-vertical li.current > ul {
+    background-color: #1a1a1a !important; /* Dark gray for sub-menus */
+}
+
+/* Links inside expanded nested lists */
+.wy-menu-vertical li.current ul li a {
+    background-color: #1a1a1a !important;
+    color: #cccccc !important;
+    border-right: none !important;
+}
+
+/* Hover for links inside nested lists */
+.wy-menu-vertical li.current ul li a:hover {
+    background-color: #333333 !important;
+    color: #ffffff !important;
+}
+
+/* Active/Current top-level section highlight */
+.wy-menu-vertical li.current > a, 
+.wy-menu-vertical li.onfocus > a {
     background-color: #222222 !important;
     color: #ffffff !important;
-    border-color: #aa0000 !important;
-    border-right: solid 1px #222222 !important;
 }
+
+/* The currently active SUB-item (the page you are actually on) */
+.wy-menu-vertical li.current ul li.current > a {
+    background-color: #2a2a2a !important;
+    color: #ffffff !important;
+    border-right: solid 3px #aa0000 !important; /* Red accent line */
+}
+
 
 /* =========================================
    2. SYSTEM-BASED DARK MODE
@@ -66,4 +95,13 @@
     .wy-table-responsive table td, .wy-table-responsive table th {
         border-color: #444444 !important;
     }
+}
+
+/* --- FIX FOR BLUE CATEGORY HEADERS --- */
+
+/* Change the blue section captions to red */
+.wy-menu-vertical p.caption,
+.wy-menu-vertical p.caption span.caption-text {
+    color: #aa0000 !important; 
+    font-weight: bold !important;
 }
