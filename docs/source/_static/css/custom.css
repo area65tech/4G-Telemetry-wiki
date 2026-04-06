@@ -1,36 +1,69 @@
-/* Custom Area 65 Tech Theme Overrides for Read the Docs */
+/* =========================================
+   1. RED AND BLACK SIDE PANEL THEME
+   ========================================= */
 
-/* Top Header Bar */
-.wy-nav-top {
-    background-color: #1a1a1a; /* Replace with Area 65 Tech main dark background color */
+/* Search header area (Red) */
+.wy-side-nav-search, .wy-nav-top {
+    background-color: #aa0000 !important; 
 }
 
-/* Sidebar Background (Search area) */
-.wy-side-nav-search {
-    background-color: #1a1a1a; /* Replace with Area 65 Tech main dark background color */
-}
-
-/* Sidebar Menu Background */
+/* Side navigation background (Black) */
 .wy-nav-side {
-    background-color: #2b2b2b; /* Replace with Area 65 Tech secondary dark background color */
+    background-color: #121212 !important; 
 }
 
-/* Hyperlinks in content */
-.wy-nav-content a {
-    color: #DF0000; /* Replace with Area 65 Tech primary accent/button color */
+/* Side panel text and link colors */
+.wy-menu-vertical a {
+    color: #cccccc !important;
 }
 
-.wy-nav-content a:hover {
-    color: #f04646; /* Lighter shade of the accent color for hover states */
-    text-decoration: underline;
+/* Hover state for side panel links */
+.wy-menu-vertical a:hover {
+    background-color: #333333 !important;
 }
 
-/* Buttons (e.g., Next/Previous Page) */
-.btn-neutral {
-    background-color: #DF0000 !important; /* Replace with Area 65 Tech primary accent color */
-    color: white !important;
+/* Active section highlight in the side panel */
+.wy-menu-vertical li.current > a, .wy-menu-vertical li.onfocus > a {
+    background-color: #222222 !important;
+    color: #ffffff !important;
+    border-color: #aa0000 !important;
+    border-right: solid 1px #222222 !important;
 }
 
-.btn-neutral:hover {
-    background-color: #f04646 !important; /* Lighter shade for hover */
+/* =========================================
+   2. SYSTEM-BASED DARK MODE
+   ========================================= */
+
+/* Detects if the computer is set to Dark Mode */
+@media (prefers-color-scheme: dark) {
+    /* Main body background */
+    .wy-nav-content-wrap, .wy-body-for-nav {
+        background-color: #121212 !important;
+    }
+    
+    /* Content reading area */
+    .wy-nav-content {
+        background-color: #1e1e1e !important;
+        color: #e0e0e0 !important;
+    }
+    
+    /* Headings */
+    h1, h2, h3, h4, h5, h6 {
+        color: #ffffff !important;
+    }
+    
+    /* Standard links in the main text */
+    .wy-nav-content a {
+        color: #ff6666 !important; 
+    }
+
+    /* Darken code blocks and API reference boxes slightly */
+    .highlight {
+        background: #2b2b2b !important;
+    }
+    
+    /* Fix table borders for dark mode */
+    .wy-table-responsive table td, .wy-table-responsive table th {
+        border-color: #444444 !important;
+    }
 }
