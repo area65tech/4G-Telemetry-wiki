@@ -38,9 +38,8 @@ Cloud Platform Access
 ^^^^^^^^^^^^^^^^^^^^^
 
 1. Visit AREA 65 Live Monitoring platform
-2. Create account or log in
-3. Register your device using the module ID
-4. Configure dashboard and data visualization
+2. log in with the username and password given in the package
+3. Configure dashboard and data visualization
 
 Next Steps
 ----------
