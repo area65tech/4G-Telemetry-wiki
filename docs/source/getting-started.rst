@@ -16,15 +16,17 @@ Initial Setup
 SIM Card Installation
 ^^^^^^^^^^^^^^^^^^^^^
 
-1. Power off the module
-2. Insert Nano SIM card into the SIM holder
-3. Ensure SIM has active data plan
+1. Make sure that the module is powered off (unplug the module from all power sources)
+2. Open the module with 2mm Hex key, by unscrewing the 4 M2.5 bolts on the base of the module
+3. Insert Nano SIM card into the SIM holder (by sliding the sim holder cover)
+4. Ensure SIM has active data plan
+5. Put the lid back on, and reinsert the M2.5 bolts with the 2mm Hex key.
 
 Antenna Connection
 ^^^^^^^^^^^^^^^^^^
 
-1. Connect 4G antenna to 4G SMA connector
-2. Connect GPS antenna to GPS SMA connector
+1. Connect 4G antenna wire to 4G SMA connector (by twisting the connector, twist it until is is handtight)
+2. Connect GPS antenna wire to GPS SMA connector
 
 Power Connection
 ^^^^^^^^^^^^^^^^
@@ -32,13 +34,13 @@ Power Connection
 Connect 5V @ 1A power via:
 
 - USB-C port (recommended for setup)
-- Communication interface pins
+- Communication interface pins (CAN, UART, I2C)
 
 Cloud Platform Access
 ^^^^^^^^^^^^^^^^^^^^^
 
-1. Visit AREA 65 Live Monitoring platform
-2. log in with the username and password given in the package
+1. Visit AREA 65 Live Monitoring platform (`4G Telemetry GUI <https://4g-telemetry-gui.area65tech.com>`_)
+2. log in with the username and password given in the package (default username and password is the serial number)
 3. Configure dashboard and data visualization
 
 Next Steps
