@@ -25,7 +25,7 @@ Step-by-Step Instructions
    * The COM port list will update (or the port number will increase). Select the newly appeared COM port.
 
    .. note::
-      If the module is not read by your computer and no new COM port appears, you need to download and install the ESP driver before proceeding.
+      If the module is not read by your computer and no new COM port appears, you need to download and install the `CH340 driver <https://cdn.sparkfun.com/assets/learn_tutorials/8/4/4/CH341SER.EXE>`_. 
 
 4. **Select the Firmware File**
    Within the flasher utility, use the file selection option to browse for and select the firmware ``.bin`` file you downloaded in Step 1.
