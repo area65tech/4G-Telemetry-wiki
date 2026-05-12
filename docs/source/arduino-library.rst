@@ -23,23 +23,9 @@ Installation
 Arduino IDE
 ^^^^^^^^^^^
 
-1. Download the ``area65_uart.zip`` archive from ``arduino_libraries/area65_uart.zip``
-2. Open Arduino IDE
-3. Go to **Sketch** > **Include Library** > **Add .ZIP Library**
-4. Select the downloaded ``area65_uart.zip`` file
-5. Restart Arduino IDE
-
-PlatformIO
-^^^^^^^^^^
-
-Add the following to your ``platformio.ini``:
-
-.. code-block:: ini
-
-   lib_deps = 
-       area65_uart
-   lib_extra_dirs = 
-       ../../../../arduino_libraries
+1. Download the ``area65_uart`` archive from `Github Page <https://github.com/area65tech/4G-Telemetry/tree/main/arduino_libraries/area65_uart>`_
+2. Copy the area65_uart folder to your Arduino libraries folder
+3. Restart Arduino IDE
 
 Usage
 -----
@@ -116,20 +102,19 @@ Library Structure
    │   │   └── area65_uart.cpp
    │   └── README.md
    ├── library.properties      # Arduino IDE compatibility
-   ├── library.json           # PlatformIO compatibility
    └── area65_uart.zip       # Distributable library archive
 
 Technical Specifications
 ------------------------
 
-+------------------+-------------+
-| Parameter        | Value       |
-+==================+=============+
-| Maximum Values   | 20 (P1-P20) |
-+------------------+-------------+
-| Default Delay    | 2000 ms     |
-+------------------+-------------+
-| Baud Rate        | 57600       |
-+------------------+-------------+
++------------------+-------------------------------+
+| Parameter        | Value                         |
++==================+===============================+
+| Maximum Values   | 20 (P1-P20)                   |
++------------------+-------------------------------+
+| Default Delay    | 2000 ms                       |
++------------------+-------------------------------+
+| Baud Rate        | 57600                         |
++------------------+-------------------------------+
 | JSON Format      | ``{"P1":X.XX,"P2":X.XX,...}`` |
-+------------------+-------------+
++------------------+-------------------------------+
