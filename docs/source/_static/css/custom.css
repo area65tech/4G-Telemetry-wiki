@@ -116,6 +116,22 @@
     .wy-table-responsive table tr:nth-child(even) th {
         background-color: #2a2a2a !important; 
     }
+    /* --- FIX FOR ADMONITION BLOCKS (NOTES, WARNINGS) --- */
+    
+    /* Make the background of the note body dark */
+    .wy-nav-content .admonition,
+    .wy-nav-content .admonition.note,
+    .wy-nav-content .admonition.warning,
+    .wy-nav-content .admonition.tip {
+        background-color: #222222 !important;
+        color: #e0e0e0 !important;
+    }
+
+    /* Optional: Darken the blue title bar slightly so it matches the dark theme better */
+    .wy-nav-content .admonition.note .admonition-title {
+        background-color: #1f6b9c !important; 
+        color: #ffffff !important;
+    }
 }
 /* --- FIX FOR BLUE CATEGORY HEADERS --- */
 
