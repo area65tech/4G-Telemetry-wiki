@@ -31,4 +31,4 @@ Step-by-Step Instructions
    Within the flasher utility, use the file selection option to browse for and select the firmware ``.bin`` file you downloaded in Step 1.
 
 5. **Flash the Firmware**
-   Start the flashing process. Do not disconnect the module during this time. The update is complete only when the flasher utility displays a "Done" message.
+   Start the flashing process by pressing the flash button. Do not disconnect the module during this time. The update is complete only when the flasher utility displays a "Mission Completed" message.
