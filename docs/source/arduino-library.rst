@@ -23,8 +23,8 @@ Installation
 Arduino IDE
 ^^^^^^^^^^^
 
-1. Download the ``area65_uart`` archive from `here <https://downgit.github.io/#/home?url=https://github.com/area65tech/4G-Telemetry/tree/main/arduino_libraries/area65_uart>`_
-2. Copy the area65_uart folder to your Arduino libraries folder
+1. Download the area65_uart.zip from `Github Page <https://github.com/area65tech/4G-Telemetry/blob/main/arduino_libraries/area65_uart.zip>`_
+2. in Arduino IDE click: Sketch → Include Library → Add .ZIP Library → select the ZIP
 3. Restart Arduino IDE
 
 Usage
