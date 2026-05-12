@@ -8,6 +8,7 @@ This documentation covers the AREA65 4G Telemetry system, including hardware int
    :caption: Getting Started
 
    getting-started
+   firmware-update
 
 .. toctree::
    :maxdepth: 2

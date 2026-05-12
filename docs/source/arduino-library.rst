@@ -32,7 +32,6 @@ Usage
 
 .. code-block:: cpp
 
-   #include <Arduino.h>
    #include <SoftwareSerial.h>
    #include <area65_uart.h>
 
