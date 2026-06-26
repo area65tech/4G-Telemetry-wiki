@@ -4,11 +4,16 @@ Getting Started
 Package Contents
 ----------------
 
-- AREA65 4G Telemetry Module
-- 4G + GPS 2-in-1 Antenna
-- 4-Pin XH Cable
-- 6-Pin XH Cable
+- 4G Telemetry Module
+- 4G + GPS 2-in-1 antenna
+- 4-Pin XH 2.5 with wires (for CAN, UART, I2C)
+- 6-Pin XH 2.5 with wires (for SPI)
 - USB-C Cable
+- Translator Module
+
+.. image:: Package content.webp
+   :alt: Package content
+
 
 Initial Setup
 -------------
@@ -27,7 +32,7 @@ WiFi Setup
 
 1. Connect the module to a computer through the USB or the Type C port. 
 2. Ensure that the correct COM port is selected. Open the serial monitor on Arduino IDE or similar applications.  
-3. To reset the WiFii connection, type 'reset_wifi'. This will reset the current WiFi settings in the module. 
+3. To reset the WiFi connection, type 'reset_wifi'. This will reset the current WiFi settings in the module. 
 4. Open your phone or laptop and connect to the WiFi 'AREA65-TELEM-XXXX'.
 5. Open the pop-up to connect to the WiFi you would like the module to be connected to. 
 6. Press connect. 
