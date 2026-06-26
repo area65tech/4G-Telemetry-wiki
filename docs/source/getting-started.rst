@@ -11,8 +11,8 @@ Package Contents
 - USB-C Cable
 - Translator Module
 
-.. image:: Package content.webp
-   :alt: Package content
+.. image:: Package_content.webp
+   :alt: Package Content
 
 
 Initial Setup
